@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 configure do 
   enable :session 
-  set :session_secret "secret"
+  set :session_secret, "secret"
 end
 
 
